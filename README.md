@@ -7,11 +7,17 @@ https://youtu.be/DiFU6ITK8QQ
 questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche aggiunte:
 
 ✅ Nuovo quadrante con visualizzazione a 24 ore
+
 ✅ Connessione WiFi con ESP32
+
 ✅ Sincronizzazione automatic con un server NTP
+
 ✅ Controllo vocale con Alexa
+
 ✅ Form Factor più compatto
+
 ✅ Nuovi effetti tipo Matrix
+
 
 
 ![389731360-8817e1d0-f8ae-471e-a67c-8fd8ebf861da](https://github.com/user-attachments/assets/98046c31-f3d6-46ae-81a4-cae0753d610b)
