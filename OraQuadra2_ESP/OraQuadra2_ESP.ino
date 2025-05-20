@@ -19,7 +19,11 @@
 // Corretta gestione del comando di alexa SPEGNI/ACCENDI ORAQUADRA (ora rimane sempre sepnto e non si riaccende al cambio del minuto)
 // Aggiunta gestione pulsante 1 per accensione/spegnimento blink dei secondi (attiva blink secondi in modalità NON marix)
 // Sistemazione troncature minuti quando è il primo minuto della decade   21 = VENT UN / 31 = TRENT UN   
-
+//
+// 20/05/2025
+// aggiunta la possibilità di usare pulsanti normali oltre a quelli touch
+// BUTTON_LOGIC_INVERTED = 1 per pulsanti normali NA verso GND
+// BUTTON_LOGIC_INVERTED = 0 per pulsanti touch
 
 // Mappatura matrice
 // S-015 O-014 N-013 O-012 U-011 L-010 E-009 Y-008 O-007 R-006 E-005 X-004 Z-003 E-002 R-001 O-000
@@ -48,6 +52,11 @@
 #include <Espalexa.h>    // https://github.com/Aircoookie/Espalexa
 #include <EEPROM.h>      // https://github.com/jwrw/ESP_EEPROM 
 #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
+
+// Abilita la logica invertita per i pulsanti.
+// Definisci BUTTON_LOGIC_INVERTED come 1 per logica invertita (pull-up, premi per GND).
+// Definisci BUTTON_LOGIC_INVERTED come 0 o commenta per logica normale (pull-down, premi per VCC).
+#define BUTTON_LOGIC_INVERTED 0
 
 // Configurazione ESP32-S3
 //#if CONFIG_ARDUINO_RUNNING_CORE
@@ -344,9 +353,16 @@ void setup() {
    currentBlink = EEPROM.read(EEPROM_BLINK_ADDR);
    applyPreset(currentPreset);                   
     
-   // Configurazione pin
-   pinMode(BUTTON_MODE, INPUT_PULLUP);
-   pinMode(BUTTON_SEC, INPUT_PULLUP);
+   // Configurazione pin in base alla logica dei pulsanti
+   #if BUTTON_LOGIC_INVERTED == 1
+     // Logica invertita: pull-up, premuto = GND (LOW)
+     pinMode(BUTTON_MODE, INPUT_PULLUP);
+     pinMode(BUTTON_SEC, INPUT_PULLUP);
+   #else
+     // Logica normale: pull-down, premuto = VCC (HIGH)
+     pinMode(BUTTON_MODE, INPUT_PULLDOWN); // O semplicemente INPUT se si usa un resistore esterno di pull-down
+     pinMode(BUTTON_SEC, INPUT_PULLDOWN);
+   #endif
    
    // Inizializzazione FastLED
    FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS)
@@ -668,8 +684,20 @@ void checkButtons() {
    const uint32_t DEBOUNCE_TIME = 300;
    const uint32_t RESET_WIFI_TIME = 5000; // 5 secondi per il reset WiFi
    
+
+  // Lettura dei pulsanti in base alla logica definita
+   #if BUTTON_LOGIC_INVERTED == 1
+     // Logica invertita: il pulsante è premuto se digitalRead restituisce LOW
+     bool isModeButtonPressed = !digitalRead(BUTTON_MODE);
+     bool isColorButtonPressed = !digitalRead(BUTTON_SEC);
+   #else
+     // Logica normale: il pulsante è premuto se digitalRead restituisce HIGH
+     bool isModeButtonPressed = digitalRead(BUTTON_MODE);
+     bool isColorButtonPressed = digitalRead(BUTTON_SEC);
+   #endif
+
    // Controlla se entrambi i pulsanti sono premuti per il reset WiFi
-   if(digitalRead(BUTTON_MODE) && digitalRead(BUTTON_SEC)) {
+   if(isModeButtonPressed && isColorButtonPressed) {
        static uint32_t bothPressStart = 0;
        if(bothPressStart == 0) {
            bothPressStart = millis();
