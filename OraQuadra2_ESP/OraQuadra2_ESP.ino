@@ -722,7 +722,16 @@ void checkButtons() {
        bothPressStart = 0;
        
        // Gestione normale dei pulsanti
-       if(digitalRead(BUTTON_MODE)) {
+       #if BUTTON_LOGIC_INVERTED == 1
+            // Logica invertita: il pulsante è premuto se digitalRead restituisce LOW
+            bool isModeButtonPressed = !digitalRead(BUTTON_MODE);
+            bool isColorButtonPressed = !digitalRead(BUTTON_SEC);
+       #else
+            // Logica normale: il pulsante è premuto se digitalRead restituisce HIGH
+            bool isModeButtonPressed = digitalRead(BUTTON_MODE);
+            bool isColorButtonPressed = digitalRead(BUTTON_SEC);
+       #endif
+       if(isModeButtonPressed) {
            if(millis() - lastBothPress > DEBOUNCE_TIME) {
                currentPreset = (currentPreset + 1) % 11;
                applyPreset(currentPreset);
@@ -731,7 +740,7 @@ void checkButtons() {
                lastBothPress = millis();
            }
        }
-       if(digitalRead(BUTTON_SEC)) {
+       if(isColorButtonPressed) {
            if(millis() - lastBothPress > DEBOUNCE_TIME) {
                if (currentBlink == 0) {
                 currentBlink = 1;
