@@ -31,6 +31,9 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 Aggiornato codice per ESP32 alla versione 1.1 con l'introduzione di 3 nuovi effetti grafici:
 
 30/05/2025
+
 Effetto MOTO con scia arcobaleno 
+
 Effetto GALAGA - sparo dal basso che colpisce le lettere
+
 Effetto Smash Random
