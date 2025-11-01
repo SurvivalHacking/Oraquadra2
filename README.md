@@ -25,3 +25,12 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 ![EPXX-OraQuadra2](https://github.com/user-attachments/assets/019d67ad-e057-4649-9cdb-e877df4447a9)
 
 ![IMG_3571_webJ25](https://github.com/user-attachments/assets/e8cee271-af9a-480b-8186-cb732473fc4c)
+
+
+
+Aggiornato codice per ESP32 alla versione 1.1 con l'introduzione di 3 nuovi effetti grafici:
+
+30/05/2025
+Effetto MOTO con scia arcobaleno 
+Effetto GALAGA - sparo dal basso che colpisce le lettere
+Effetto Smash Random
