@@ -36,4 +36,4 @@ Effetto MOTO con scia arcobaleno
 
 Effetto GALAGA - sparo dal basso che colpisce le lettere
 
-Effetto Smash Random
+Effetto PACMAN
