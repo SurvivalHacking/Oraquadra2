@@ -37,6 +37,7 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 *  Pulsanti Capacitivi AMZ: https://amzn.to/438dXD7
 *  Pulsanti Capacitivi ALI: https://s.click.aliexpress.com/e/_onoDssm
 
+Link Affiliati
 ---
 # 📝 Revisioni
 
