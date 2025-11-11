@@ -36,8 +36,8 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 *  ESP32C3 ALI: https://s.click.aliexpress.com/e/_DDST7Bj
 *  Pulsanti Capacitivi AMZ: https://amzn.to/438dXD7
 *  Pulsanti Capacitivi ALI: https://s.click.aliexpress.com/e/_onoDssm
+*  Link Affiliati
 
-Link Affiliati
 ---
 # 📝 Revisioni
 
