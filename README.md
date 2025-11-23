@@ -11,9 +11,9 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 * Nuovo quadrante con visualizzazione a 24 ore
 * Connessione WiFi con ESP32
 * Sincronizzazione automatic con un server NTP
-* Controllo vocale con Alexa
 * Form Factor più compatto
-* Nuovi effetti tipo Matrix
+* Nuovi effetti tipo Matrix e tanti altri
+* Controllo avanzato via WEB 
 
 ![389731360-8817e1d0-f8ae-471e-a67c-8fd8ebf861da](https://github.com/user-attachments/assets/98046c31-f3d6-46ae-81a4-cae0753d610b)
 
@@ -46,13 +46,32 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 ---
 # 📝 Revisioni
 
-Aggiornato codice per ESP32 alla versione 1.1 con l'introduzione di 3 nuovi effetti grafici:
 
-v1.1 by Marco Prunca  1/11/2025
+V1.0.1 - 21/02/2025
+*  Rimappatura nuovo quadrante e aggiunta gestione nuove WORD
+*  Sistemazione troncature minuti quando è il primo minuto della decade   21 = VENT UN / 31 = TRENT UN   
 
-* Effetto MOTO con scia arcobaleno 
-* Effetto GALAGA - sparo dal basso che colpisce le lettere
-* Effetto PACMAN
+V1.0.2 - 20/05/2025
+*  aggiunta la possibilità di usare pulsanti normali oltre a quelli touch
+*  BUTTON_LOGIC_INVERTED = 1 per pulsanti normali NA verso GND
+*  BUTTON_LOGIC_INVERTED = 0 per pulsanti touch
+
+V1.1.0 - 1/11/2025 by Marco Prunca
+*  aggiunto effetto MOTO con scia arcobaleno 
+*  MODIFICATO: la scia colora le scritte dell'orario man mano che passa
+*  aggiunto effetto GALAGA - sparo dal basso che colpisce le lettere
+
+V1.2.1 - 20/11/2025 - By Marco Prunca
+*  aggiunto effetto PACMAN - Pacman che insegue fantasmi colorando le scritte
+*  aggiunta interfaccia web per il controllo completo
+
+V1.2.2 - 22/11/2025 - By Davide Gatti
+*  aggiunto effetto DIGITALE - orologio digitale su schermo oraquadra
+*  aggiunta modalità giorno/sera/notte per la regolazione della luminosità su tre fasce orarie
+*  aggiunte scritte scorrevoli per informare l'utente sullo stato della connettività WIFI
+*  sistemati alcuni bug relativi a vari effetti e memorizzazione parametri di configurazione
+*  Sitemato grazie a Alessndro Spagnoletti e Paolo Sambinello l'effetto matrix che ora è corretto !!!!
+
 ---
 ## 🧾 Licenza
 
