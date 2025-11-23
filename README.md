@@ -23,8 +23,7 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 
 ## 👨‍💻 Programmazione modulo
 
-* Programmatore WEB (Solo per chrome) Versione per pulsanti touch: https://davidegatti.altervista.org/installaEsp32.html?progetto=oraQuadra2_touch
-* Programmatore WEB (Solo per chrome) Versione per pulsanti tradizionali NA: https://davidegatti.altervista.org/installaEsp32.html?progetto=oraQuadra2_std
+* Programmatore WEB (Solo per chrome): https://davidegatti.altervista.org/installaEsp32.php?progetto=oraQuadra2
 
 ---
 ## 🎛️ Schema pratico di assemblaggio
