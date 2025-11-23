@@ -17,6 +17,8 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 
 ![389731360-8817e1d0-f8ae-471e-a67c-8fd8ebf861da](https://github.com/user-attachments/assets/98046c31-f3d6-46ae-81a4-cae0753d610b)
 
+![EPXX-OraQuadra2plus](https://github.com/user-attachments/assets/e030988a-5eb3-4cf2-b682-1b09b61c3026)
+
 ![Cover](https://github.com/user-attachments/assets/fd213337-6217-4251-b41b-f0d67f0e2865)
 
 ![Screenshot 2025-11-23 alle 22 28 35](https://github.com/user-attachments/assets/e43dcfa6-1aaa-45d2-9443-738955a1e8fd)
