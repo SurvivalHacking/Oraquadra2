@@ -1,10 +1,10 @@
-# Oraquadra2
+# Oraquadra2+
 Le parole in tempo
 
 ## 📘 Descrizione
 
 Un progetto per la comunità, per un simpatico orologio derivato dal progetto Word Clock, ma totalmente personalizzato e con tutto il necessario per poterselo replicare facilmente. Video tutorial qui:
-https://youtu.be/DiFU6ITK8QQ
+https://youtu.be/ZyrPDAisFMc
 
 questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche aggiunte:
 
@@ -17,9 +17,9 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 
 ![389731360-8817e1d0-f8ae-471e-a67c-8fd8ebf861da](https://github.com/user-attachments/assets/98046c31-f3d6-46ae-81a4-cae0753d610b)
 
-![EPXX-OraQuadra2](https://github.com/user-attachments/assets/019d67ad-e057-4649-9cdb-e877df4447a9)
+![Cover](https://github.com/user-attachments/assets/fd213337-6217-4251-b41b-f0d67f0e2865)
 
-![IMG_3571_webJ25](https://github.com/user-attachments/assets/e8cee271-af9a-480b-8186-cb732473fc4c)
+![Screenshot 2025-11-23 alle 22 28 35](https://github.com/user-attachments/assets/e43dcfa6-1aaa-45d2-9443-738955a1e8fd)
 
 ## 👨‍💻 Programmazione modulo
 
