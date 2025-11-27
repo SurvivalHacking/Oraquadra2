@@ -75,6 +75,9 @@ V1.2.2 - 22/11/2025 - By Davide Gatti
 *  sistemati alcuni bug relativi a vari effetti e memorizzazione parametri di configurazione
 *  Sitemato grazie a Alessndro Spagnoletti e Paolo Sambinello l'effetto matrix che ora è corretto !!!!
 
+V1.2.3 - 27/11/2025 - By Marco Prunca
+* Sisteamti alcuni bug per la gestione WEB
+
 ---
 ## 🧾 Licenza
 
