@@ -43,8 +43,8 @@
 //
 // V1.2.4 - 02/12-2025 - by Leotech
 // Aggiunta funzione Testo scorrevole da web server
-// Aggiunta possibilità di attivare/disattivare il quadrante digitale che si attiva ogni 6 sec per rendere visibile l'ora per postazione più lontane. 
-// L'attivazione/disattivazione del quadrante digitale che si alterna agli effetti selezioanti può avvenire o da web server o mediante la pressione prolungata (6 sec) di uno dei 2 pulsanti. 
+// Aggiunta possibilità di attivare/disattivare il quadrante digitale che si attiva ogni 6 sec per rendere visibile l'ora per postazioni più lontane. 
+// L'attivazione/disattivazione del quadrante digitale che si alterna agli effetti selezionati può avvenire o da web server o mediante la pressione prolungata (6 sec) di uno dei 2 pulsanti. 
 // Aggiunta palette di colori avanzata per selezionare molteplici più colori del testo scorrevole o delle parole di alcuni effetti.
 // 
 //
