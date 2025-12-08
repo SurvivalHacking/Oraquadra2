@@ -23,7 +23,7 @@ questa è una evoluzione del progetto Oraquadra con le seguenti caratteristiche 
 
 ![Cover2](https://github.com/user-attachments/assets/828c185f-c8fa-4d4c-9b91-5f06e091d789)
 
-![WEB](https://github.com/user-attachments/assets/928b1927-22a3-4399-8116-8e5a27c3a6c9)
+![WEB](https://github.com/user-attachments/assets/d72093b1-b926-4fad-a468-2cf7cf5aa3b5)
 
 
 ## 👨‍💻 Programmazione modulo
