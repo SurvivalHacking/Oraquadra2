@@ -78,6 +78,21 @@ V1.2.2 - 22/11/2025 - By Davide Gatti
 V1.2.3 - 27/11/2025 - By Marco Prunca
 * Sisteamti alcuni bug per la gestione WEB
 
+V1.2.4 - 02/12/2025 - By Leotech e Paolo Sambinello
+* Aggiunta funzione Testo scorrevole da web server
+* Aggiunta possibilità di attivare/disattivare il quadrante digitale che si attiva ogni 6 sec per rendere visibile l'ora per postazioni più lontane. 
+* L'attivazione/disattivazione del quadrante digitale che si alterna agli effetti selezionati può avvenire o da web server o mediante la pressione prolungata (6 sec) di uno dei 2 pulsanti. 
+* Aggiunta palette di colori avanzata per selezionare molteplici più colori del testo scorrevole o delle parole di alcuni effetti.
+* Aggiunti possibilità di selezionare varie dimensioni di font
+* Aggiunto effetto rainbow
+* Sistemati e migliorati effetti goccie a tron
+
+V1.2.5 - 07/12/2025 - By Davide Gatti
+* Gestione testo scorrevole come entità a parte e non come preset
+* Aggiunta palette colori per il testo scorrevole
+* Aggiunta modalità per mostrare ora in formato testuale
+* Sistemata modalità notturna e luminosità giornaliera del testo scorrevole.
+
 ---
 ## 🧾 Licenza
 
