@@ -94,6 +94,9 @@ V1.2.5 - 07/12/2025 - By Davide Gatti
 * Aggiunta modalità per mostrare ora in formato testuale
 * Sistemata modalità notturna e luminosità giornaliera del testo scorrevole.
 
+V1.2.6 - 10/12/2025 - By leotech
+* Sistemato un problema che impediva la memorizzazione della velocità di scorrimento del testo con la data
+
 ---
 ## 🧾 Licenza
 
