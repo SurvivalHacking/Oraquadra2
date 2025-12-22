@@ -97,6 +97,9 @@ V1.2.5 - 07/12/2025 - By Davide Gatti
 V1.2.6 - 10/12/2025 - By leotech
 * Sistemato un problema che impediva la memorizzazione della velocità di scorrimento del testo con la data
 
+V1.2.7 - 23/12/2025 - By Davide Gatti
+* Sistemato un problema che a volte mostrava un ora sbagliata in quanto non conteggiava correttamente l'ora legale.
+
 ---
 ## 🧾 Licenza
 
