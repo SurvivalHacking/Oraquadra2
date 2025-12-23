@@ -101,6 +101,17 @@ V1.2.7 - 23/12/2025 - By Davide Gatti
 * Sistemato un problema che a volte mostrava un ora sbagliata in quanto non conteggiava correttamente l'ora legale.
 
 ---
+# 📝 Revisioni Prunca Edition
+
+Versione gestita da Marco Prunca derivata dalla versione 1.2.4 di oraquadra 2 originale.
+Questa versione ha preso una strada differente rispetto al progetto originale e ha una serie di effetti aggiuntivi, e modalità operative del testo scorrevole differente
+Oramai questa versione ha preso una sua strada e non è più integrabile al progetto originale, per cui viaggerà in modo separato.
+Nella repository troverete sempre le versioni aggiornate dei due progetti e anche nella programmazione web
+
+V1.2.6 
+* Aggiunti svariati effetti Natalizi e sistemate le funzioni di scroll testo ed effetti
+
+---
 ## 🧾 Licenza
 
 Questo progetto è distribuito con licenza
