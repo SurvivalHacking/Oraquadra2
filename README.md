@@ -108,7 +108,7 @@ Questa versione ha preso una strada differente rispetto al progetto originale e 
 Oramai questa versione ha preso una sua strada e non è più integrabile al progetto originale, per cui viaggerà in modo separato.
 Nella repository troverete sempre le versioni aggiornate dei due progetti e anche nella programmazione web
 
-V1.2.6 
+V1.2.6 - 22/12/2025 - By Marco Prunca 
 * Aggiunti svariati effetti Natalizi e sistemate le funzioni di scroll testo ed effetti
 
 ---
