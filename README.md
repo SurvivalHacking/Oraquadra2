@@ -100,6 +100,10 @@ V1.2.6 - 10/12/2025 - By leotech
 V1.2.7 - 23/12/2025 - By Davide Gatti
 * Sistemato un problema che a volte mostrava un ora sbagliata in quanto non conteggiava correttamente l'ora legale.
 
+V1.2.8 - 28/02/2026 - By Davide Gatti
+* Sistemato un bug che in assenza di testo scorrevole e di orologio dgitale, non faceva commutare i vari effetti al cambio minuto
+* Sistemato un bug nell'effto moto dove in orari pieni tipo 22:00/12:00 dove non ci sono minuti, rimaneva accesa la E
+
 ---
 # 📝 Revisioni Prunca Edition
 
