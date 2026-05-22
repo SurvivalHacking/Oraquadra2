@@ -81,7 +81,7 @@
 // C-240 I-241 N-242 Q-243 U-244 E-245 D-246 U-247 E-248 U-249 M-250 I-251 N-252 U-253 T-254 I-255
 
 // Parte 1: Include e definizioni di base
-#include <FastLED.h>     // https://github.com/FastLED/FastLED 
+#include <FastLED.h>     // https://github.com/FastLED/FastLED (you need to install version 3.10.2 or lower)
 #include <WiFi.h> 
 #include <ESPmDNS.h>
 #include <ArduinoOTA.h>
@@ -1189,12 +1189,12 @@ void updateScrollText() {
             pauseDelayActive = false;
         } else if (!pauseDelayActive) {
             // secondi / seconds
-            if (millis() - scrollPauseStart < 2000) {
+            if (millis() - scrollPauseStart < 500) {
                 FastLED.clear();
                 FastLED.show();
                 return;
             } else {
-                pauseDelayActive = true;  // Dopo 2 sec, mostra preset
+                pauseDelayActive = true;  // Dopo 0,5 sec, mostra preset
             }
         }
     return;
