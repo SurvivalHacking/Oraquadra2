@@ -104,6 +104,19 @@ V1.2.8 - 28/02/2026 - By Davide Gatti
 * Sistemato un bug che in assenza di testo scorrevole e di orologio dgitale, non faceva commutare i vari effetti al cambio minuto
 * Sistemato un bug nell'effto moto dove in orari pieni tipo 22:00/12:00 dove non ci sono minuti, rimaneva accesa la E
 
+V1.2.9 - 10/06/2026
+* Sistemata la luminosità che non rispecchiava lo slider (il colore veniva scalato due volte: ora lo slider al 100% dà la piena luminosità)
+* Completato il fix della E accesa a ore piene negli effetti Moto e Pacman
+* Sistemato l'effetto Matrix che mostrava l'ora sbagliata dalle 12:00 in poi (usava il formato 12 ore)
+* Sistemato il salvataggio della pausa del testo scorrevole che veniva sempre forzata a 5 secondi
+* Sistemato il salvataggio della velocità di scorrimento al primo avvio (indirizzo EEPROM errato)
+* Sistemate le traiettorie degli spari Galaga che risultavano specchiate sulle righe pari
+* Sistemato il bottone web "Reset WiFi" che riavviava soltanto senza cancellare le credenziali
+* Sistemati alcuni errori JavaScript nella pagina web e il campo testo scorrevole che non veniva ripopolato
+* Aggiunto bottone web di Reset di Fabbrica con modale di conferma (cancella tutta la EEPROM e le credenziali WiFi)
+* Tutte le conferme della pagina web (reset WiFi, riavvio, reset di fabbrica) ora usano modali personalizzate al posto delle dialog del browser
+* Sistemato l'effetto Lento che con luminosità vicino al 100% ripeteva il fade-in all'infinito
+
 ---
 # 📝 Revisioni Prunca Edition
 
