@@ -104,7 +104,7 @@ V1.2.8 - 28/02/2026 - By Davide Gatti
 * Sistemato un bug che in assenza di testo scorrevole e di orologio dgitale, non faceva commutare i vari effetti al cambio minuto
 * Sistemato un bug nell'effto moto dove in orari pieni tipo 22:00/12:00 dove non ci sono minuti, rimaneva accesa la E
 
-V1.2.9 - 10/06/2026
+V1.2.9 - 10/06/2026 - By Simone Gasparini
 * Sistemata la luminosità che non rispecchiava lo slider (il colore veniva scalato due volte: ora lo slider al 100% dà la piena luminosità)
 * Completato il fix della E accesa a ore piene negli effetti Moto e Pacman
 * Sistemato l'effetto Matrix che mostrava l'ora sbagliata dalle 12:00 in poi (usava il formato 12 ore)
