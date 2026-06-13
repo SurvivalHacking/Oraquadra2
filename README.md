@@ -117,6 +117,15 @@ V1.2.9 - 10/06/2026 - By Simone Gasparini
 * Tutte le conferme della pagina web (reset WiFi, riavvio, reset di fabbrica) ora usano modali personalizzate al posto delle dialog del browser
 * Sistemato l'effetto Lento che con luminosità vicino al 100% ripeteva il fade-in all'infinito
 
+V1.3.0 - 11/06/2026 - By Simone Gasparini
+* Integrati i 9 effetti della Prunca Edition V1.2.6 di Marco Prunca: Arkanoid, Natale, Neve, Laser, Fuoco, Black Hole, Camino, Firework e Drift (preset 19-27)
+* Aggiunti 12 effetti originali: Plasma, Aurora Boreale, Radar, Cielo Stellato, Battito, Tetris, Snake, Sabbia, Temporale, Bolle, Pong e Lava Lamp (preset 28-39)
+* La lettera E dei secondi non si accende più a ore piene in nessun effetto (guardia centralizzata)
+* Migliorie interfaccia web: indicatore stato connessione (niente più notifiche di errore a raffica), badge sulla fascia giorno/sera attiva, bottone Salva evidenziato quando ci sono modifiche non salvate, evidenziazione del colore attivo, sezioni collassabili, vista compatta su mobile, modalità organizzate in categorie (Effetti Speciali / Giochi 🎮 / Ambient 🌿), tooltip descrittivi, favicon
+* La pagina web è ora in un file separato `webpage.h` accanto allo sketch (in Arduino IDE appare come seconda tab e si compila automaticamente): risolve anche i problemi di compilazione del preprocessore Arduino con il codice HTML/JS
+* Le impostazioni colore dei preset 20-39 sono salvate in una nuova area EEPROM (360-459)
+* **NOTA IMPORTANTE**: lo sketch supera la partizione app di default. Compilare con **Partition Scheme: "Minimal SPIFFS"** (Tools → Partition Scheme in Arduino IDE). Il primo aggiornamento da versioni precedenti va fatto via USB (non OTA); le impostazioni salvate vengono mantenute.
+
 ---
 # 📝 Revisioni Prunca Edition
 
